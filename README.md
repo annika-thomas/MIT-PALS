@@ -3,8 +3,6 @@
 At Massachusetts Institute of Technlology, we run the Perception and Localization Seminar (PALS), which features a mix of reading groups, presentations, and seminars from authors of recent or impactful papers in perception and localization. In an effort to share what we think is interesting, this is a curated reading list with links to papers and presentations featured during our seminars. If you have any suggestions, want to chat, or are interested in presenting, feel free to reach out!
 
 ## 2024
-
-- [January](#Jan-24)
 - [February](#Feb-24)
 - [March](#Mar-24)
   [April](#Apr-24)
@@ -17,72 +15,16 @@ At Massachusetts Institute of Technlology, we run the Perception and Localizatio
 - [November](#Nov-24)
 - [December](#Dec-24)
 
-
-<br>
-
-- [Data](#data)
-- [Courses](#courses)
-
-<br>
-
-- [Open Source Implementations](#open-source-implementations)
-  * [Reference](#reference)
-  * [Unofficial Implementations](#unofficial-implementations)
-  * [2D Gaussian Splatting](#2d-gaussian-splatting)
-  * [Game Engines](#game-engines)
-  * [Viewers](#viewers)
-  * [Utilities](#utilities)
-  * [Tutorial](#tutorial)
-  * [Framework](#framework)
-  * [Other](#other)
-<br>
-
-- [Blog Posts](#blog-posts)
-- [Tutorial Videos](#tutorial-videos)
-- [Credits](#credits)
-
-
-## Seminal Paper introducing 3D Gaussian Splatting:
-### 3D Gaussian Splatting for Real-Time Radiance Field Rendering
-**Authors**: Bernhard Kerbl, Georgios Kopanas, Thomas Leimkühler, George Drettakis
-
-<details span>
-<summary><b>Abstract</b></summary>
-Radiance Field methods have recently revolutionized novel-view synthesis
-of scenes captured with multiple photos or videos. However, achieving high
-visual quality still requires neural networks that are costly to train and render,
-while recent faster methods inevitably trade off speed for quality. For
-unbounded and complete scenes (rather than isolated objects) and 1080p
-resolution rendering, no current method can achieve real-time display rates.
-We introduce three key elements that allow us to achieve state-of-the-art
-visual quality while maintaining competitive training times and importantly
-allow high-quality real-time (≥ 30 fps) novel-view synthesis at 1080p resolution.
-First, starting from sparse points produced during camera calibration,
-we represent the scene with 3D Gaussians that preserve desirable properties
-of continuous volumetric radiance fields for scene optimization while
-avoiding unnecessary computation in empty space; Second, we perform
-interleaved optimization/density control of the 3D Gaussians, notably optimizing
-anisotropic covariance to achieve an accurate representation of the
-scene; Third, we develop a fast visibility-aware rendering algorithm that
-supports anisotropic splatting and both accelerates training and allows real-time
-rendering. We demonstrate state-of-the-art visual quality and real-time
-rendering on several established datasets.
-</details>
-  
-  [📄 Paper (Low Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_low.pdf) | [📄 Paper (High Resolution)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf) | [🌐 Project Page](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/) | [💻 Code](https://github.com/graphdeco-inria/gaussian-splatting) | [🎥 Short Presentation](https://youtu.be/T_kXY43VZnk?si=DrkbDFxQAv5scQNT) | [🎥 Explanation Video](https://www.youtube.com/live/xgwvU7S0K-k?si=edF8NkYtsRbgTbKi)
-
-<br>
-
-## 3D Object Detection:
+## February 2024:
 ## 2024:
-### 1. 3DGS-DET: Empower 3D Gaussian Splatting with Boundary Guidance and Box-Focused Sampling for 3D Object Detection
-**Authors**: Yang Cao, Yuanliang Jv, Dan Xu
+### 1. Hydra: a Real-time Spatial Perception System for 3d Scene Graph Construction and Optimization
+**Authors**: Nathan Hughes, Yun Chang, Luca Carlone
 <details span>
 <summary><b>Abstract</b></summary>
-Neural Radiance Fields (NeRF) are widely used for novel-view synthesis and have been adapted for 3D Object Detection (3DOD), offering a promising approach to 3D object detection through view-synthesis representation. However, NeRF faces inherent limitations: (i) It has limited representational capacity for 3DOD due to its implicit nature, and (ii) it suffers from slow rendering speeds. Recently, 3D Gaussian Splatting (3DGS) has emerged as an explicit 3D representation that addresses these limitations with faster rendering capabilities. Inspired by these advantages, this paper introduces 3DGS into 3DOD for the first time, identifying two main challenges: (i) Ambiguous spatial distribution of Gaussian blobs – 3DGS primarily relies on 2D pixel-level supervision, resulting in unclear 3D spatial distribution of Gaussian blobs and poor differentiation between objects and background, which hinders 3DOD; (ii) Excessive background blobs – 2D images often include numerous background pixels, leading to densely reconstructed 3DGS with many noisy Gaussian blobs representing the background, negatively affecting detection. To tackle the challenge (i), we leverage the fact that 3DGS reconstruction is derived from 2D images, and propose an elegant and efficient solution by incorporating 2D Boundary Guidance to significantly enhance the spatial distribution of Gaussian blobs, resulting in clearer differentiation between objects and their background (see Fig. 1). To address the challenge (ii), we propose a Box-Focused Sampling strategy using 2D boxes to generate object probability distribution in 3D spaces, allowing effective probabilistic sampling in 3D to retain more object blobs and reduce noisy background blobs. Benefiting from the proposed Boundary Guidance and Box-Focused Sampling, our final method, 3DGS-DET, achieves significant improvements (+5.6 on mAP@0.25, +3.7 on mAP@0.5) over our basic pipeline version, without introducing any additional learnable parameters. Furthermore, 3DGS-DET significantly outperforms the state-of-the-art NeRF-based method, NeRF-Det, achieving improvements of +6.6 on mAP@0.25 and +8.1 on mAP@0.5 for the ScanNet dataset, and impressive +31.5 on mAP@0.25 for the ARKITScenes dataset. Codes and models are publicly available at: https://github.com/yangcaoai/3DGS-DET.
+3D scene graphs have recently emerged as a powerful high-level representation of 3D environments. A 3D scene graph describes the environment as a layered graph where nodes represent spatial concepts at multiple levels of abstraction and edges represent relations between concepts. While 3D scene graphs can serve as an advanced "mental model" for robots, how to build such a rich representation in real-time is still uncharted territory. This paper describes a real-time Spatial Perception System, a suite of algorithms to build a 3D scene graph from sensor data in real-time. Our first contribution is to develop real-time algorithms to incrementally construct the layers of a scene graph as the robot explores the environment; these algorithms build a local Euclidean Signed Distance Function (ESDF) around the current robot location, extract a topological map of places from the ESDF, and then segment the places into rooms using an approach inspired by community-detection techniques. Our second contribution is to investigate loop closure detection and optimization in 3D scene graphs. We show that 3D scene graphs allow defining hierarchical descriptors for loop closure detection; our descriptors capture statistics across layers in the scene graph, ranging from low-level visual appearance to summary statistics about objects and places. We then propose the first algorithm to optimize a 3D scene graph in response to loop closures; our approach relies on embedded deformation graphs to simultaneously correct all layers of the scene graph. We implement the proposed Spatial Perception System into a architecture named Hydra, that combines fast early and mid-level perception processes with slower high-level perception. We evaluate Hydra on simulated and real data and show it is able to reconstruct 3D scene graphs with an accuracy comparable with batch offline methods despite running online.
 </details>
 
-  [📄 Paper](https://arxiv.org/pdf/2410.01647) | [💻 Code (not yet)](https://github.com/yangcaoai/3DGS-DET) 
+  [📄 Paper](https://arxiv.org/abs/2201.13360) | [💻 Code](https://github.com/MIT-SPARK/Hydra) 
 
   
 ## Autonomous Driving:
