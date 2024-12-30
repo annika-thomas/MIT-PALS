@@ -1,31 +1,22 @@
-# Awesome 3D Gaussian Splatting Resources 
+# MIT Perception and Localization Seminar Reading List
 
-A curated list of papers and open-source resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months. If you have any additions or suggestions, feel free to contribute. Additional resources like blog posts, videos, etc. are also welcome.
+At Massachusetts Institute of Technlology, we run the Perception and Localization Seminar (PALS), which features a mix of reading groups, presentations, and seminars from authors of recent or impactful papers in perception and localization. In an effort to share what we think is interesting, this is a curated reading list with links to papers and presentations featured during our seminars. If you have any suggestions, want to chat, or are interested in presenting, feel free to reach out!
 
-## Table of contents
+## 2024
 
-- [Seminal Paper introducing 3D Gaussian Splatting](#seminal-paper-introducing-3d-gaussian-splatting)
-<br>
+- [January](#Jan-24)
+- [February](#Feb-24)
+- [March](#Mar-24)
+  [April](#Apr-24)
+- [May](#May-24)
+- [June](#Jun-24)
+- [July](#Jul-24)
+- [August](#Aug-24)
+- [September](#Sep-24)
+- [October](#Oct-24)
+- [November](#Nov-24)
+- [December](#Dec-24)
 
-- [3D Object Detection](#3D-Object-Detection)
-- [Autonomous Driving](#autonomous-driving)
-- [Avatars](#avatars)
-- [Classic work](#classic-work)
-- [Compression](#compression)
-- [Diffusion](#diffusion)
-- [Dynamics and Deformation](#dynamics-and-deformation)
-- [Editing](#editing)
-- [Language Embedding](#language-embedding)
-- [Mesh Extraction and Physics](#mesh-extraction-and-physics)
-- [Misc](#misc)
-- [Regularization and Optimization](#regularization-and-optimization)
-- [Rendering](#rendering)
-- [Reviews](#reviews)
-- [SLAM](#slam)
-- [Sparse](#sparse)
-- [Navigation and Autonomous Driving](#navigation)
-- [Poses](#poses)
-- [Large-Scale](#large-scale)
 
 <br>
 
