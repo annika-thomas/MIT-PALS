@@ -45,7 +45,8 @@ In this paper we present a fully distributed, asynchronous, and general purpose 
 
   [📄 Paper](https://ieeexplore.ieee.org/abstract/document/10611193?casa_token=zPSd_elnbaMAAAAA:IFFWJm0zPz3oaXuIO-freATm0Z3zcLfhw5DoH8VK3NnBKLncs9TDD77I1Z-3El2G4llSzK-LGA)  
 
-### 3. Building Rome in a Day
+## April 2024:
+### 1. Building Rome in a Day
 **Authors**: y Sameer Agarwala, Yasutaka Furukawaa, Noah Snavely, Ian Simonb, Brian Curless, Steven M. Seitz, Richard Szeliski
 <details span>
 <summary><b>Abstract</b></summary>
@@ -55,17 +56,14 @@ We present a system that can reconstruct 3D geometry from large, unorganized col
 [📄 Paper](https://grail.cs.washington.edu/rome/rome_paper.pdf) | [🌐 Project Page](https://grail.cs.washington.edu/rome/) | [💻 Code](https://phototour.cs.washington.edu/)
 
 
-
-## continue here
-
-### 4. SplatAD: Real-Time Lidar and Camera Rendering with 3D Gaussian Splatting for Autonomous Driving
-**Authors**: Georg Hess, Carl Lindström, Maryam Fatemi, Christoffer Petersson, Lennart Svensson
+### 2. VOOM: Robust Visual Object Odometry and Mapping using Hierarchical Landmarks
+**Authors**: Yutong Wang, Chaoyang Jiang, Xieyuanli Chen2
 <details span>
 <summary><b>Abstract</b></summary>
-Ensuring the safety of autonomous robots, such as self-driving vehicles, requires extensive testing across diverse driving scenarios. Simulation is a key ingredient for conducting such testing in a cost-effective and scalable way. Neural rendering methods have gained popularity, as they can build simulation environments from collected logs in a data-driven manner. However, existing neural radiance field (NeRF) methods for sensor-realistic rendering of camera and lidar data suffer from low rendering speeds, limiting their applicability for large-scale testing. While 3D Gaussian Splatting (3DGS) enables real-time rendering, current methods are limited to camera data and are unable to render lidar data essential for autonomous driving. To address these limitations, we propose SplatAD, the first 3DGS-based method for realistic, real-time rendering of dynamic scenes for both camera and lidar data. SplatAD accurately models key sensor-specific phenomena such as rolling shutter effects, lidar intensity, and lidar ray dropouts, using purpose-built algorithms to optimize rendering efficiency. Evaluation across three autonomous driving datasets demonstrates that SplatAD achieves state-of-the-art rendering quality with up to +2 PSNR for NVS and +3 PSNR for reconstruction while increasing rendering speed over NeRF-based methods by an order of magnitude. 
+In recent years, object-oriented simultaneous localization and mapping (SLAM) has attracted increasing attention due to its ability to provide high-level semantic information while maintaining computational efficiency. Some researchers have attempted to enhance localization accuracy by integrating the modeled object residuals into bundle adjustment. However, few have demonstrated better results than feature-based visual SLAM systems, as the generic coarse object models, such as cuboids or ellipsoids, are less accurate than feature points. In this paper, we propose a Visual Object Odometry and Mapping framework VOOM using high-level objects and low-level points as the hierarchical landmarks in a coarse-to-fine manner instead of directly using object residuals in bundle adjustment. Firstly, we introduce an improved observation model and a novel data association method for dual quadrics, employed to represent physical objects. It facilitates the creation of a 3D map that closely reflects reality. Next, we use object information to enhance the data association of feature points and consequently update the map. In the visual object odometry backend, the updated map is employed to further optimize the camera pose and the objects. Meanwhile, local bundle adjustment is performed utilizing the objects and points-based covisibility graphs in our visual object mapping process. Experiments show that VOOM outperforms both object-oriented SLAM and feature points SLAM systems such as ORB-SLAM2 in terms of localization.
 </details>
 
-[📄 Paper](https://arxiv.org/abs/2411.16816) | [🌐 Project Page](https://research.zenseact.com/publications/splatad/) | [💻 Code](https://github.com/carlinds/splatad)
+[📄 Paper](https://arxiv.org/abs/2402.13609) | [💻 Code](https://github.com/yutongwangBIT/VOOM)
 
 ## 2023:
 ### 1. [CVPR '24] DrivingGaussian: Composite Gaussian Splatting for Surrounding Dynamic Autonomous Driving Scenes  
