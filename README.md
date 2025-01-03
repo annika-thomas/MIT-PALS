@@ -7,7 +7,7 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 <br>
 
 ## February 2024:
-### 1. Hydra: a Real-time Spatial Perception System for 3d Scene Graph Construction and Optimization
+### 1. [RSS '22] Hydra: a Real-time Spatial Perception System for 3d Scene Graph Construction and Optimization
 **Authors**: Nathan Hughes, Yun Chang, Luca Carlone
 <details span>
 <summary><b>Abstract</b></summary>
@@ -19,7 +19,7 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 <br>
   
 ## March 2024:
-### 1. SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM
+### 1. [CVPR '24] SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM
 **Authors**: Nikhil Keetha, Jay Karhade, Krishna Murthy Jatavallabhula, Gengshan Yang, Sebastian Scherer, Deva Ramanan, Jonathon Luiten
 <details span>
 <summary><b>Abstract</b></summary>
@@ -28,19 +28,19 @@ Dense simultaneous localization and mapping (SLAM) is crucial for robotics and a
 
   [📄 Paper](https://arxiv.org/abs/2312.02126) | [🌐 Project Page](https://spla-tam.github.io/) | [💻 Code](https://github.com/spla-tam/SplaTAM) 
 
-### 2. Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM 
+### 2. [ICRA '23] Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM 
 **Authors**: Daniel McGann, Kyle Lassak, Michael Kaess1
 <details span>
 <summary><b>Abstract</b></summary>
 In this paper we present a fully distributed, asynchronous, and general purpose optimization algorithm for Consensus Simultaneous Localization and Mapping (CSLAM). Multi-robot teams require that agents have timely and accurate solutions to their state as well as the states of the other robots in the team. To optimize this solution we develop a CSLAM back-end based on Consensus ADMM called MESA (Manifold, Edge-based, Separable ADMM). MESA is fully distributed to tolerate failures of individual robots, asynchronous to tolerate communication delays and outages, and general purpose to handle any CSLAM problem formulation. We demonstrate that MESA exhibits superior convergence rates and accuracy compare to existing state-of-the art CSLAM back-end optimizers.
 </details>
 
-  [📄 Paper](https://ieeexplore.ieee.org/abstract/document/10611193?casa_token=zPSd_elnbaMAAAAA:IFFWJm0zPz3oaXuIO-freATm0Z3zcLfhw5DoH8VK3NnBKLncs9TDD77I1Z-3El2G4llSzK-LGA)  
+  [📄 Paper](https://ieeexplore.ieee.org/abstract/document/10611193?casa_token=zPSd_elnbaMAAAAA:IFFWJm0zPz3oaXuIO-freATm0Z3zcLfhw5DoH8VK3NnBKLncs9TDD77I1Z-3El2G4llSzK-LGA) | [💻 Code](https://github.com/rpl-cmu/mesa)
 
 <br>
 
 ## April 2024:
-### 1. Building Rome in a Day
+### 1. [ICCV '09] Building Rome in a Day
 **Authors**: y Sameer Agarwala, Yasutaka Furukawaa, Noah Snavely, Ian Simonb, Brian Curless, Steven M. Seitz, Richard Szeliski
 <details span>
 <summary><b>Abstract</b></summary>
@@ -50,7 +50,7 @@ We present a system that can reconstruct 3D geometry from large, unorganized col
 [📄 Paper](https://grail.cs.washington.edu/rome/rome_paper.pdf) | [🌐 Project Page](https://grail.cs.washington.edu/rome/) | [💻 Code](https://phototour.cs.washington.edu/)
 
 
-### 2. VOOM: Robust Visual Object Odometry and Mapping using Hierarchical Landmarks
+### 2. [ICRA '24] VOOM: Robust Visual Object Odometry and Mapping using Hierarchical Landmarks
 **Authors**: Yutong Wang, Chaoyang Jiang, Xieyuanli Chen2
 <details span>
 <summary><b>Abstract</b></summary>
