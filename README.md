@@ -75,7 +75,7 @@ In this paper, we present a new sequence-to-sequence learning framework for visu
 
 ## June 2024:
 ### 1. [RSS '14] Batch Continuous-Time Trajectory Estimation as Exactly Sparse Gaussian Process Regression 
-**Authors**: Sean Anderson, Timothy D. Barfoot, Chi Hay Tong, Simo Särkkä
+**Authors**: Timothy D. Barfoot, Chi Hay Tong, Simo Särkkä
 <details span>
 <summary><b>Abstract</b></summary>
 In this paper, we revisit batch state estimation
