@@ -2,19 +2,6 @@
 
 At Massachusetts Institute of Technlology, we run the Perception and Localization Seminar (PALS), which features a mix of reading groups, presentations, and seminars from authors of recent or impactful papers in perception and localization. In an effort to share what we think is interesting, this is a curated reading list with links to papers and presentations featured during our seminars. If you have any suggestions, want to chat, or are interested in presenting, feel free to reach out!
 
-## 2024
-- [February](#Feb-24)
-- [March](#Mar-24)
-- [April](#Apr-24)
-- [May](#May-24)
-- [June](#Jun-24)
-- [July](#Jul-24)
-- [August](#Aug-24)
-- [September](#Sep-24)
-- [October](#Oct-24)
-- [November](#Nov-24)
-- [December](#Dec-24)
-
 <br>
 
 ## February 2024:
