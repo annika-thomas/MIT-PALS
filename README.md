@@ -21,8 +21,10 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 <br>
   
 ## March 2024:
-### 1. [CVPR '24] SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM
-**Authors**: Nikhil Keetha, Jay Karhade, Krishna Murthy Jatavallabhula, Gengshan Yang, Sebastian Scherer, Deva Ramanan, Jonathon Luiten
+### 1. SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM
+**Authors**: Nikhil Keetha, Jay Karhade, Krishna Murthy Jatavallabhula, Gengshan Yang, Sebastian Scherer, Deva Ramanan, Jonathon Luiten  
+*Conference on Computer Vision and Pattern Recognition '24*
+
 <details span>
 <summary><b>Abstract</b></summary>
 Dense simultaneous localization and mapping (SLAM) is crucial for robotics and augmented reality applications. However, current methods are often hampered by the non-volumetric or implicit way they represent a scene. This work introduces SplaTAM, an approach that, for the first time, leverages explicit volumetric representations, i.e., 3D Gaussians, to enable high-fidelity reconstruction from a single unposed RGB-D camera, surpassing the capabilities of existing methods. SplaTAM employs a simple online tracking and mapping system tailored to the underlying Gaussian representation. It utilizes a silhouette mask to elegantly capture the presence of scene density. This combination enables several benefits over prior representations, including fast rendering and dense optimization, quickly determining if areas have been previously mapped, and structured map expansion by adding more Gaussians. Extensive experiments show that SplaTAM achieves up to 2x superior performance in camera pose estimation, map construction, and novel-view synthesis over existing methods, paving the way for more immersive high-fidelity SLAM applications.
@@ -30,8 +32,10 @@ Dense simultaneous localization and mapping (SLAM) is crucial for robotics and a
 
   [📄 Paper](https://arxiv.org/abs/2312.02126) | [🌐 Project Page](https://spla-tam.github.io/) | [💻 Code](https://github.com/spla-tam/SplaTAM) 
 
-### 2. [ICRA '23] Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM 
-**Authors**: Daniel McGann, Kyle Lassak, Michael Kaess
+### 2. Asynchronous Distributed Smoothing and Mapping via On-Manifold Consensus ADMM 
+**Authors**: Daniel McGann, Kyle Lassak, Michael Kaess  
+*International Conference on Robotics and Automation '23*
+
 <details span>
 <summary><b>Abstract</b></summary>
 In this paper we present a fully distributed, asynchronous, and general purpose optimization algorithm for Consensus Simultaneous Localization and Mapping (CSLAM). Multi-robot teams require that agents have timely and accurate solutions to their state as well as the states of the other robots in the team. To optimize this solution we develop a CSLAM back-end based on Consensus ADMM called MESA (Manifold, Edge-based, Separable ADMM). MESA is fully distributed to tolerate failures of individual robots, asynchronous to tolerate communication delays and outages, and general purpose to handle any CSLAM problem formulation. We demonstrate that MESA exhibits superior convergence rates and accuracy compare to existing state-of-the art CSLAM back-end optimizers.
@@ -42,8 +46,10 @@ In this paper we present a fully distributed, asynchronous, and general purpose 
 <br>
 
 ## April 2024:
-### 1. [ICCV '09] Building Rome in a Day
-**Authors**: Sameer Agarwala, Yasutaka Furukawaa, Noah Snavely, Ian Simonb, Brian Curless, Steven M. Seitz, Richard Szeliski
+### 1. Building Rome in a Day
+**Authors**: Sameer Agarwala, Yasutaka Furukawaa, Noah Snavely, Ian Simonb, Brian Curless, Steven M. Seitz, Richard Szeliski  
+*International Conference on Computer Vision '09*
+
 <details span>
 <summary><b>Abstract</b></summary>
 We present a system that can reconstruct 3D geometry from large, unorganized collections of photographs such as those found by searching for a given city (e.g., Rome) on Internet photo-sharing sites. Our system is built on a set of new, distributed computer vision algorithms for image matching and 3D reconstruction, designed to maximize parallelism at each stage of the pipeline and to scale gracefully with both the size of the problem and the amount of available computation. Our experimental results demonstrate that it is now possible to reconstruct city-scale image collections with more than a hundred thousand images in less than a day.
@@ -52,8 +58,10 @@ We present a system that can reconstruct 3D geometry from large, unorganized col
 [📄 Paper](https://grail.cs.washington.edu/rome/rome_paper.pdf) | [🌐 Project Page](https://grail.cs.washington.edu/rome/) | [💻 Code](https://phototour.cs.washington.edu/)
 
 
-### 2. [ICRA '24] VOOM: Robust Visual Object Odometry and Mapping using Hierarchical Landmarks
-**Authors**: Yutong Wang, Chaoyang Jiang, Xieyuanli Chen
+### 2. VOOM: Robust Visual Object Odometry and Mapping using Hierarchical Landmarks
+**Authors**: Yutong Wang, Chaoyang Jiang, Xieyuanli Chen  
+*International Conference on Robotics and Automation '24*
+
 <details span>
 <summary><b>Abstract</b></summary>
 In recent years, object-oriented simultaneous localization and mapping (SLAM) has attracted increasing attention due to its ability to provide high-level semantic information while maintaining computational efficiency. Some researchers have attempted to enhance localization accuracy by integrating the modeled object residuals into bundle adjustment. However, few have demonstrated better results than feature-based visual SLAM systems, as the generic coarse object models, such as cuboids or ellipsoids, are less accurate than feature points. In this paper, we propose a Visual Object Odometry and Mapping framework VOOM using high-level objects and low-level points as the hierarchical landmarks in a coarse-to-fine manner instead of directly using object residuals in bundle adjustment. Firstly, we introduce an improved observation model and a novel data association method for dual quadrics, employed to represent physical objects. It facilitates the creation of a 3D map that closely reflects reality. Next, we use object information to enhance the data association of feature points and consequently update the map. In the visual object odometry backend, the updated map is employed to further optimize the camera pose and the objects. Meanwhile, local bundle adjustment is performed utilizing the objects and points-based covisibility graphs in our visual object mapping process. Experiments show that VOOM outperforms both object-oriented SLAM and feature points SLAM systems such as ORB-SLAM2 in terms of localization.
@@ -64,8 +72,10 @@ In recent years, object-oriented simultaneous localization and mapping (SLAM) ha
 <br>
 
 ## May 2024:
-### 1. [CVPR '23] SeqTrack: Sequence to Sequence Learning for Visual Object Tracking 
-**Authors**: Xin Chen, Houwen Peng, Dong Wang, Huchuan Lu, Han Hu
+### 1. SeqTrack: Sequence to Sequence Learning for Visual Object Tracking 
+**Authors**: Xin Chen, Houwen Peng, Dong Wang, Huchuan Lu, Han Hu  
+*Conference on Computer Vision and Pattern Recognition '23*
+
 <details span>
 <summary><b>Abstract</b></summary>
 In this paper, we present a new sequence-to-sequence learning framework for visual tracking, dubbed SeqTrack. It casts visual tracking as a sequence generation problem, which predicts object bounding boxes in an autoregressive fashion. This is different from prior Siamese trackers and transformer trackers, which rely on designing complicated head networks, such as classification and regression heads. SeqTrack only adopts a simple encoder-decoder transformer architecture. The encoder extracts visual features with a bidirectional transformer, while the decoder generates a sequence of bounding box values autoregressively with a causal transformer. The loss function is a plain cross-entropy. Such a sequence learning paradigm not only simplifies tracking framework, but also achieves competitive performance on benchmarks. For instance, SeqTrack gets 72.5% AUC on LaSOT, establishing a new state-of-the-art performance.
@@ -76,8 +86,10 @@ In this paper, we present a new sequence-to-sequence learning framework for visu
 <br>
 
 ## June 2024:
-### 1. [RSS '14] Batch Continuous-Time Trajectory Estimation as Exactly Sparse Gaussian Process Regression 
-**Authors**: Timothy D. Barfoot, Chi Hay Tong, Simo Särkkä
+### 1. Batch Continuous-Time Trajectory Estimation as Exactly Sparse Gaussian Process Regression 
+**Authors**: Timothy D. Barfoot, Chi Hay Tong, Simo Särkkä  
+*Robotics: Science and Systems '14*
+
 <details span>
 <summary><b>Abstract</b></summary>
 In this paper, we revisit batch state estimation
@@ -105,8 +117,10 @@ a mobile robot dataset.
 
   [📄 Paper](https://www.roboticsproceedings.org/rss10/p01.pdf)
 
-### 2. [ICRA '24] nvblox: GPU-Accelerated Incremental Signed Distance Field Mapping
-**Authors**: Alexander Millane, Helen Oleynikova, Emilie Wirbel, Remo Steiner, Vikram Ramasamy, David Tingdahl, Roland Siegwart
+### 2. nvblox: GPU-Accelerated Incremental Signed Distance Field Mapping
+**Authors**: Alexander Millane, Helen Oleynikova, Emilie Wirbel, Remo Steiner, Vikram Ramasamy, David Tingdahl, Roland Siegwart  
+*International Conference on Robotics and Automation '24*
+
 <details span>
 <summary><b>Abstract</b></summary>
 Dense, volumetric maps are essential to enable robot navigation and interaction with the environment. To achieve low latency, dense maps are typically computed onboard the robot, often on computationally constrained hardware. Previous works leave a gap between CPU-based systems for robotic mapping which, due to computation constraints, limit map resolution or scale, and GPU-based reconstruction systems which omit features that are critical to robotic path planning, such as computation of the Euclidean Signed Distance Field (ESDF). We introduce a library, nvblox, that aims to fill this gap, by GPU-accelerating robotic volumetric mapping. Nvblox delivers a significant performance improvement over the state of the art, achieving up to a 177x speed-up in surface reconstruction, and up to a 31x improvement in distance field computation, and is available open-source.
@@ -114,8 +128,10 @@ Dense, volumetric maps are essential to enable robot navigation and interaction 
 
   [📄 Paper](https://arxiv.org/abs/2311.00626) | [💻 Code](https://github.com/nvidia-isaac/nvblox)
 
-### 3. [TRO '20] Characterizing the Uncertainty of Jointly Distributed Poses in the Lie Algebra 
-**Authors**: Joshua G. Mangelson, Maani Ghaffari, Ram Vasudevan, Ryan M. Eustice
+### 3. Characterizing the Uncertainty of Jointly Distributed Poses in the Lie Algebra 
+**Authors**: Joshua G. Mangelson, Maani Ghaffari, Ram Vasudevan, Ryan M. Eustice  
+*Transactions on Robotics '20*
+
 <details span>
 <summary><b>Abstract</b></summary>
 An accurate characterization of pose uncertainty is essential for safe autonomous navigation. Early pose uncertainty characterization methods proposed by Smith, Self, and Cheeseman (SCC), used coordinate-based first-order methods to propagate uncertainty through non-linear functions such as pose composition (head-to-tail), pose inversion, and relative pose extraction (tail-to-tail). Characterizing uncertainty in the Lie Algebra of the special Euclidean group results in better uncertainty estimates. However, existing approaches assume that individual poses are independent. Since factors in a pose graph induce correlation, this independence assumption is usually not reflected in reality. In addition, prior work has focused primarily on the pose composition operation. This paper develops a framework for modeling the uncertainty of jointly distributed poses and describes how to perform the equivalent of the SSC pose operations while characterizing uncertainty in the Lie Algebra. Evaluation on simulated and open-source datasets shows that the proposed methods result in more accurate uncertainty estimates. An accompanying C++ library implementation is also released.
@@ -126,8 +142,10 @@ An accurate characterization of pose uncertainty is essential for safe autonomou
 <br>
 
 ## July 2024:
-### 1. [ICRA '24] Censible: A Robust and Practical Global Localization Framework for Planetary Surface Missions
-**Authors**:  Wojciech Zielonka, Timur Bagautdinov, Shunsuke Saito, Michael Zollhöfer, Justus Thies, Javier Romero
+### 1. Censible: A Robust and Practical Global Localization Framework for Planetary Surface Missions
+**Authors**:  Wojciech Zielonka, Timur Bagautdinov, Shunsuke Saito, Michael Zollhöfer, Justus Thies, Javier Romero  
+*International Conference on Robotics and Automation '24*
+
 <details span>
 <summary><b>Abstract</b></summary>
 To achieve longer driving distances, planetary
@@ -147,8 +165,10 @@ practicality of our approach.
 
   [📄 Paper](https://www-robotics.jpl.nasa.gov/media/documents/2024_Global_Localization_ICRA.pdf)
 
-### 2. [CVPR '23] BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects
-**Authors**: Bowen Wen, Jonathan Tremblay, Valts Blukis, Stephen Tyree, Thomas Muller, Alex Evans, Dieter Fox, Jan Kautz, Stan Birchfield
+### 2. BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects
+**Authors**: Bowen Wen, Jonathan Tremblay, Valts Blukis, Stephen Tyree, Thomas Muller, Alex Evans, Dieter Fox, Jan Kautz, Stan Birchfield  
+*Conference on Computer Vision and Pattern Recognition '23*
+
 <details span>
 <summary><b>Abstract</b></summary>
 We present a near real-time method for 6-DoF tracking of an unknown object from a monocular RGBD video sequence, while simultaneously performing neural 3D reconstruction of the object. Our method works for arbitrary rigid objects, even when visual texture is largely absent. The object is assumed to be segmented in the first frame only. No additional information is required, and no assumption is made about the interaction agent. Key to our method is a Neural Object Field that is learned concurrently with a pose graph optimization process in order to robustly accumulate information into a consistent 3D representation capturing both geometry and appearance. A dynamic pool of posed memory frames is automatically maintained to facilitate communication between these threads. Our approach handles challenging sequences with large pose changes, partial and full occlusion, untextured surfaces, and specular highlights. We show results on HO3D, YCBInEOAT, and BEHAVE datasets, demonstrating that our method significantly outperforms existing approaches. 
@@ -156,8 +176,10 @@ We present a near real-time method for 6-DoF tracking of an unknown object from 
 
   [📄 Paper](https://arxiv.org/abs/2303.14158) |  [🌐 Project Page](https://bundlesdf.github.io/) | [💻 Code](https://github.com/NVlabs/BundleSDF)
 
-### 3. [RAL '24] Clio: Real-time Task-Driven Open-Set 3D Scene Graphs
-**Authors**: Dominic Maggio, Yun Chang, Nathan Hughes, Matthew Trang, Dan Griffith, Carlyn Dougherty, Eric Cristofalo, Lukas Schmid, Luca Carlone
+### 3. Clio: Real-time Task-Driven Open-Set 3D Scene Graphs
+**Authors**: Dominic Maggio, Yun Chang, Nathan Hughes, Matthew Trang, Dan Griffith, Carlyn Dougherty, Eric Cristofalo, Lukas Schmid, Luca Carlone  
+*Robotics and Automation Letters '24*
+
 <details span>
 <summary><b>Abstract</b></summary>
 Modern tools for class-agnostic image segmentation (e.g., SegmentAnything) and open-set semantic understanding (e.g., CLIP) provide unprecedented opportunities for robot perception and mapping. While traditional closed-set metric-semantic maps were restricted to tens or hundreds of semantic classes, we can now build maps with a plethora of objects and countless semantic variations. This leaves us with a fundamental question: what is the right granularity for the objects (and, more generally, for the semantic concepts) the robot has to include in its map representation? While related work implicitly chooses a level of granularity by tuning thresholds for object detection, we argue that such a choice is intrinsically task-dependent. The first contribution of this paper is to propose a task-driven 3D scene understanding problem, where the robot is given a list of tasks in natural language and has to select the granularity and the subset of objects and scene structure to retain in its map that is sufficient to complete the tasks. We show that this problem can be naturally formulated using the Information Bottleneck (IB), an established information-theoretic framework. The second contribution is an algorithm for task-driven 3D scene understanding based on an Agglomerative IB approach, that is able to cluster 3D primitives in the environment into task-relevant objects and regions and executes incrementally. The third contribution is to integrate our task-driven clustering algorithm into a real-time pipeline, named Clio, that constructs a hierarchical 3D scene graph of the environment online using only onboard compute, as the robot explores it. Our final contribution is an extensive experimental campaign showing that Clio not only allows real-time construction of compact open-set 3D scene graphs, but also improves the accuracy of task execution by limiting the map to relevant semantic concepts.
@@ -168,8 +190,10 @@ Modern tools for class-agnostic image segmentation (e.g., SegmentAnything) and o
 <br>
 
 ## August 2024:
-### 1. [IJRR '17] Analytical SLAM Without Linearization
-**Authors**:  Feng Tan, Winfried Lohmiller, Jean-Jacques Slotine
+### 1. Analytical SLAM Without Linearization
+**Authors**:  Feng Tan, Winfried Lohmiller, Jean-Jacques Slotine  
+*International Journal of Robotics Research '17*
+
 <details span>
 <summary><b>Abstract</b></summary>
 This paper solves the classical problem of simultaneous localization and mapping (SLAM) in a fashion which avoids linearized approximations altogether. Based on creating virtual synthetic measurements, the algorithm uses a linear time- varying (LTV) Kalman observer, bypassing errors and approximations brought by the linearization process in traditional extended Kalman filtering (EKF) SLAM. Convergence rates of the algorithm are established using contraction analysis. Different combinations of sensor information can be exploited, such as bearing measurements, range measurements, optical flow, or time-to-contact. As illustrated in simulations, the proposed algorithm can solve SLAM problems in both 2D and 3D scenarios with guaranteed convergence rates in a full nonlinear context.
@@ -186,8 +210,10 @@ This paper develops a real-time decentralized metric-semantic Simultaneous Local
 
   [📄 Paper](https://arxiv.org/abs/2406.17249) |  [🌐 Project Page](https://xurobotics.github.io/slideslam/) | [💻 Code](https://github.com/KumarRobotics/SLIDE_SLAM)
 
-### 3. [RAL '24] 3D Active Metric-Semantic SLAM
-**Authors**: Yuezhan Tao, Xu Liu, Igor Spasojevic, Saurav Agarwal, Vijay Kumar
+### 3. 3D Active Metric-Semantic SLAM
+**Authors**: Yuezhan Tao, Xu Liu, Igor Spasojevic, Saurav Agarwal, Vijay Kumar  
+*Robotics and Automation Letters '24*
+
 <details span>
 <summary><b>Abstract</b></summary>
 In this letter, we address the problem of exploration
@@ -216,8 +242,10 @@ reliable GPS data may not be available.
 
   [📄 Paper](https://arxiv.org/pdf/2309.06950)
 
-### 4. [ICRA '23] Active Metric-Semantic Mapping by Multiple Aerial Robots
-**Authors**: Xu Liu, Ankit Prabhu, Fernando Cladera, Ian D. Miller, Lifeng Zhou, Camillo J. Taylor
+### 4. Active Metric-Semantic Mapping by Multiple Aerial Robots
+**Authors**: Xu Liu, Ankit Prabhu, Fernando Cladera, Ian D. Miller, Lifeng Zhou, Camillo J. Taylor  
+*International Conference on Robotics and Automation '23*
+
 <details span>
 <summary><b>Abstract</b></summary>
 Traditional approaches for active mapping focus on building geometric maps. For most real-world applications, however, actionable information is related to semantically meaningful objects in the environment. We propose an approach to the active metric-semantic mapping problem that enables multiple heterogeneous robots to collaboratively build a map of the environment. The robots actively explore to minimize the uncertainties in both semantic (object classification) and geometric (object modeling) information. We represent the environment using informative but sparse object models, each consisting of a basic shape and a semantic class label, and characterize uncertainties empirically using a large amount of real-world data. Given a prior map, we use this model to select actions for each robot to minimize uncertainties. The performance of our algorithm is demonstrated through multi-robot experiments in diverse real-world environments. The proposed framework is applicable to a wide range of real-world problems, such as precision agriculture, infrastructure inspection, and asset mapping in factories.
@@ -225,8 +253,10 @@ Traditional approaches for active mapping focus on building geometric maps. For 
 
   [📄 Paper](https://ieeexplore.ieee.org/abstract/document/10161564) 
 
-### 5. [RAL '22] Large-Scale Autonomous Flight with Real-time Semantic SLAM under Dense Forest Canopy
-**Authors**: Xu Liu, Guilherme V. Nardari, Fernando Cladera Ojeda, Yuezhan Tao, Alex Zhou, Thomas Donnelly, Chao Qu, Steven W. Chen, Roseli A. F. Romero, Camillo J. Taylor
+### 5. Large-Scale Autonomous Flight with Real-time Semantic SLAM under Dense Forest Canopy
+**Authors**: Xu Liu, Guilherme V. Nardari, Fernando Cladera Ojeda, Yuezhan Tao, Alex Zhou, Thomas Donnelly, Chao Qu, Steven W. Chen, Roseli A. F. Romero, Camillo J. Taylor  
+*Robotics and Automation Letters '22*
+
 <details span>
 <summary><b>Abstract</b></summary>
 Semantic maps represent the environment using a set of semantically meaningful objects. This representation is storage-efficient, less ambiguous, and more informative, thus facilitating large-scale autonomy and the acquisition of actionable information in highly unstructured, GPS-denied environments. In this letter, we propose an integrated system that can perform large-scale autonomous flights and real-time semantic mapping in challenging under-canopy environments. We detect and model tree trunks and ground planes from LiDAR data, which are associated across scans and used to constrain robot poses as well as tree trunk models. The autonomous navigation module utilizes a multi-level planning and mapping framework and computes dynamically feasible trajectories that lead the UAV to build a semantic map of the user-defined region of interest in a computationally and storage efficient manner. A drift-compensation mechanism is designed to minimize the odometry drift using semantic SLAM outputs in real time, while maintaining planner optimality and controller stability. This leads the UAV to execute its mission accurately and safely at scale.
@@ -234,8 +264,10 @@ Semantic maps represent the environment using a set of semantically meaningful o
 
   [📄 Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9720974)
 
-### 6. [CVPR '21] Back to the Feature: Learning Robust Camera Localization from Pixels to Pose
-**Authors**: Paul-Edouard Sarlin, Ajaykumar Unagar, Mans Larsson, Hugo Germain, Carl Toft, Viktor Larsson, Marc Pollefeys, Vincent Lepetit, Lars Hammarstrand, Fredrik Kahl, Torsten Sattler
+### 6. Back to the Feature: Learning Robust Camera Localization from Pixels to Pose
+**Authors**: Paul-Edouard Sarlin, Ajaykumar Unagar, Mans Larsson, Hugo Germain, Carl Toft, Viktor Larsson, Marc Pollefeys, Vincent Lepetit, Lars Hammarstrand, Fredrik Kahl, Torsten Sattler  
+*Conference on Computer Vision and Pattern Recognition '21*
+
 <details span>
 <summary><b>Abstract</b></summary>
 Camera pose estimation in known scenes is a 3D geometry task recently tackled by multiple learning algorithms. Many regress precise geometric quantities, like poses or 3D points, from an input image. This either fails to generalize to new viewpoints or ties the model parameters to a specific scene. In this paper, we go Back to the Feature: we argue that deep networks should focus on learning robust and invariant visual features, while the geometric estimation should be left to principled algorithms. We introduce PixLoc, a scene-agnostic neural network that estimates an accurate 6-DoF pose from an image and a 3D model. Our approach is based on the direct alignment of multiscale deep features, casting camera localization as metric learning. PixLoc learns strong data priors by end-to-end training from pixels to pose and exhibits exceptional generalization to new scenes by separating model parameters and scene geometry. The system can localize in large environments given coarse pose priors but also improve the accuracy of sparse feature matching by jointly refining keypoints and poses with little overhead.
@@ -246,8 +278,9 @@ Camera pose estimation in known scenes is a 3D geometry task recently tackled by
 <br>
 
 ## September 2024:
-### 1. [RAL '24] Adaptive Global Graph Optimization for LiDAR-Inertial SLAM
-**Authors**: Fengtian Lang, Ruiye Ming, Zikang Yuan, Xuemiao Xu, Kai Wu, Xin Yang
+### 1. Adaptive Global Graph Optimization for LiDAR-Inertial SLAM
+**Authors**: Fengtian Lang, Ruiye Ming, Zikang Yuan, Xuemiao Xu, Kai Wu, Xin Yang  
+*Robotics and Automation Letters '24*
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -272,8 +305,9 @@ accuracy of back-end state optimization
 
 [📄 Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10679917) 
 
-### 2. [IROS '24] SOS-Match: Segmentation for Open-Set Robust Correspondence Search and Robot Localization in Unstructured Environments
+### 2. SOS-Match: Segmentation for Open-Set Robust Correspondence Search and Robot Localization in Unstructured Environments
 **Authors**: Annika Thomas, Jouko Kinnari, Parker Lusk, Kota Kondo, Jonathan P. How
+*International Conference on Intelligent Robots and Systems '24*
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -286,8 +320,9 @@ We present SOS-Match, a novel framework for detecting and matching objects in un
 <br>
 
 ## October 2024:
-### 1. [RAL '23] PADLoC: LiDAR-Based Deep Loop Closure Detection and Registration Using Panoptic Attention
+### 1. PADLoC: LiDAR-Based Deep Loop Closure Detection and Registration Using Panoptic Attention
 **Authors**: José Arce, Niclas Vödisch, Daniele Cattaneo, Wolfram Burgard, Abhinav Valada
+*Robotics and Automation Letters '23*
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -322,8 +357,9 @@ While global point cloud registration systems have advanced significantly in all
 [📄 Paper](https://arxiv.org/abs/2409.15615) | [💻 Code (not yet)](https://github.com/MIT-SPARK/KISS-Matcher)
 
 
-### 3. [IROS '24] GSLoc: Visual Localization with 3D Gaussian Splatting
-**Authors**: Kazii Botashev, Vladislav Pyatov, Gonzalo Ferre, Stamatios Lefkimmiatis
+### 3. GSLoc: Visual Localization with 3D Gaussian Splatting
+**Authors**: Kazii Botashev, Vladislav Pyatov, Gonzalo Ferre, Stamatios Lefkimmiatis  
+*International Conference on Intelligent Robots and Systems '24*
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -348,8 +384,9 @@ Integrating language models into robotic exploration frameworks improves perform
 <br>
 
 ## December 2024
-### 1. [RAL '24] MVINS: A Magnetism&Vision Aided Inertial Navigation System for Autonomous Underwater Vehicles
-**Authors**: Bingbing Zhang, Shuo Liu, Daxiong Ji, Tao Wang, Shanmin Zhou, Zhengfei Wang, Xiaokang Qi, Wen Xu
+### 1. MVINS: A Magnetism&Vision Aided Inertial Navigation System for Autonomous Underwater Vehicles
+**Authors**: Bingbing Zhang, Shuo Liu, Daxiong Ji, Tao Wang, Shanmin Zhou, Zhengfei Wang, Xiaokang Qi, Wen Xu  
+*Robotics and Automation Letters '24*
 
 <details span>
 <summary><b>Abstract</b></summary>
@@ -377,6 +414,6 @@ the improved performance of the proposed system
 
 ## Credits
 
-- Thanks to [Aneesa Sonawalla](https://www.linkedin.com/in/aneesa-sonawalla-827b1775/) and [Mason Peterson](https://www.linkedin.com/in/mason-burgon-peterson/) for co-organizing this seminar group with me. 
+- Thanks to [Annika Thomas](https://www.linkedin.com/in/annika-thomas/), [Aneesa Sonawalla](https://www.linkedin.com/in/aneesa-sonawalla-827b1775/) and [Mason Peterson](https://www.linkedin.com/in/mason-burgon-peterson/) for co-organizing this seminar group.
 - Thanks to our presenters, [Nathan Hughes](https://www.linkedin.com/in/nathan-hughes-79abb4ab/), [Nikhil Keetha](https://www.linkedin.com/in/nik-v9/), [Dominic Maggio](https://www.linkedin.com/in/dominic-maggio-050034158/), [Xu Liu](https://www.linkedin.com/in/xu-liu-1124032b0/), [Annika Thomas](https://www.linkedin.com/in/annika-thomas/), [Hyungtae Lim](https://www.linkedin.com/in/hyungtae-lim-34b8a015a/), and [Harel Biggie](https://www.linkedin.com/in/harelb/).
 - Thanks to our reading group leaders, [Aneesa Sonawalla](https://www.linkedin.com/in/aneesa-sonawalla-827b1775/), [Mason Peterson](https://www.linkedin.com/in/mason-burgon-peterson/), [Annika Thomas](https://www.linkedin.com/in/annika-thomas/), Lucas Jia, [Lorenzo Shaikewitz](https://www.linkedin.com/in/lorenzo-shaikewitz/), and [Hannah Shafferman](https://www.linkedin.com/in/hannah-shafferman-17962b18b/).
