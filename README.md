@@ -8,7 +8,7 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 
 ## February 2024:
 ### 1. Hydra: a Real-time Spatial Perception System for 3D Scene Graph Construction and Optimization
-Nathan Hughes, Yun Chang, Luca Carlone  
+**Authors**: Nathan Hughes, Yun Chang, Luca Carlone  
 Robotics: Science and Systems '22 
 
 <details span>
