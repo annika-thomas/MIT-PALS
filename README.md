@@ -271,7 +271,7 @@ accuracy of back-end state optimization
 [📄 Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10679917) 
 
 ### 2. [IROS '24] SOS-Match: Segmentation for Open-Set Robust Correspondence Search and Robot Localization in Unstructured Environments
-**Authors**: Annika Thomas, Jouko Kinnari, Parker Lusk, Kota Kondo, Jonathan P How
+**Authors**: Annika Thomas, Jouko Kinnari, Parker Lusk, Kota Kondo, Jonathan P. How
 
 <details span>
 <summary><b>Abstract</b></summary>
