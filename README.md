@@ -1,6 +1,6 @@
 # MIT Perception and Localization Seminar
 
-At Massachusetts Institute of Technlology, we run the Perception and Localization Seminar (PALS), which features a mix of reading groups, presentations, and seminars from authors of recent or impactful papers in perception and localization. To extend PALS beyond MIT, we've curated a list of papers we've reviewed. If you have any suggestions, want to chat, or are interested in presenting, feel free to reach out!
+At Massachusetts Institute of Technlology, we run the Perception and Localization Seminar (PALS), which features a mix of reading groups, presentations, and seminars from authors of recent or impactful papers in perception and localization. This repository includes a list of papers that we have reviewed or hosted authors to present. If you have any suggestions, want to chat, or are interested in presenting, feel free to reach out!
 
 <br>
 
