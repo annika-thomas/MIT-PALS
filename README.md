@@ -81,7 +81,7 @@ In this paper, we present a new sequence-to-sequence learning framework for visu
 In this paper, we revisit batch state estimation through the lens of Gaussian process (GP) regression. We consider continuous-discrete estimation problems wherein a trajectory is viewed as a one-dimensional GP, with time as the independent variable. Our continuous-time prior can be defined by any nonlinear, time-varying stochastic differential equation driven by white noise; this allows the possibility of smoothing our trajectory estimates using a variety of vehicle dynamics models (e.g., `constant-velocity'). We show that this class of prior results in an inverse kernel matrix (i.e., covariance matrix between all pairs of measurement times) that is exactly sparse (block-tridiagonal) and that this can be exploited to carry out GP regression (and interpolation) very efficiently. When the prior is based on a linear, time-varying stochastic differential equation and the measurement model is also linear, this GP approach is equivalent to classical, discrete-time smoothing (at the measurement times); when a nonlinearity is present, we iterate over the whole trajectory to maximize accuracy. We test the approach experimentally on a simultaneous trajectory estimation and mapping problem using a mobile robot dataset.
 </details>
 
-  [📄 Paper](https://arxiv.org/abs/1412.0630)
+  [📄 Paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a0a2972b646bbb2cd388f41d1a556ec122e6f15e)
 
 ### 2. [ICRA '24] nvblox: GPU-Accelerated Incremental Signed Distance Field Mapping
 **Authors**: Alexander Millane, Helen Oleynikova, Emilie Wirbel, Remo Steiner, Vikram Ramasamy, David Tingdahl, Roland Siegwart
