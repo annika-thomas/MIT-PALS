@@ -15,6 +15,8 @@ At Massachusetts Institute of Technlology, we run the Perception and Localizatio
 - [November](#Nov-24)
 - [December](#Dec-24)
 
+<br>
+
 ## February 2024:
 ### 1. Hydra: a Real-time Spatial Perception System for 3d Scene Graph Construction and Optimization
 **Authors**: Nathan Hughes, Yun Chang, Luca Carlone
@@ -25,6 +27,7 @@ At Massachusetts Institute of Technlology, we run the Perception and Localizatio
 
   [📄 Paper](https://arxiv.org/abs/2201.13360) | [💻 Code](https://github.com/MIT-SPARK/Hydra) 
 
+<br>
   
 ## March 2024:
 ### 1. SplaTAM: Splat, Track & Map 3D Gaussians for Dense RGB-D SLAM
@@ -45,6 +48,8 @@ In this paper we present a fully distributed, asynchronous, and general purpose 
 
   [📄 Paper](https://ieeexplore.ieee.org/abstract/document/10611193?casa_token=zPSd_elnbaMAAAAA:IFFWJm0zPz3oaXuIO-freATm0Z3zcLfhw5DoH8VK3NnBKLncs9TDD77I1Z-3El2G4llSzK-LGA)  
 
+<br>
+
 ## April 2024:
 ### 1. Building Rome in a Day
 **Authors**: y Sameer Agarwala, Yasutaka Furukawaa, Noah Snavely, Ian Simonb, Brian Curless, Steven M. Seitz, Richard Szeliski
@@ -64,6 +69,8 @@ In recent years, object-oriented simultaneous localization and mapping (SLAM) ha
 </details>
 
 [📄 Paper](https://arxiv.org/abs/2402.13609) | [💻 Code](https://github.com/yutongwangBIT/VOOM)
+
+<br>
 
 ## May 2024:
 ### 1. SeqTrack: Sequence to Sequence Learning for Visual Object Tracking 
@@ -105,6 +112,8 @@ An accurate characterization of pose uncertainty is essential for safe autonomou
 
   [📄 Paper](https://arxiv.org/abs/1906.07795)  
 
+<br>
+
 ## July 2024:
 ### 1. Censible: A Robust and Practical Global Localization Framework for Planetary Surface Missions
 **Authors**:  Wojciech Zielonka, Timur Bagautdinov, Shunsuke Saito, Michael Zollhöfer, Justus Thies, Javier Romero
@@ -145,7 +154,8 @@ Modern tools for class-agnostic image segmentation (e.g., SegmentAnything) and o
 
   [📄 Paper](https://arxiv.org/abs/2404.13696)
 
-  
+<br>
+
 ## August 2024:
 ### 1. Analytical SLAM Without Linearization
 **Authors**:  Feng Tan, Winfried Lohmiller, Jean-Jacques Slotine
@@ -222,7 +232,9 @@ Camera pose estimation in known scenes is a 3D geometry task recently tackled by
 
   [📄 Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Sarlin_Back_to_the_Feature_Learning_Robust_Camera_Localization_From_Pixels_CVPR_2021_paper.html) | [💻 Code](https://github.com/cvg/pixloc)
 
-## Classic work:
+<br>
+
+## September 2024:
 ### 1. A Generalization of Algebraic Surface Drawing
 **Authors**: James F. Blinn
 
