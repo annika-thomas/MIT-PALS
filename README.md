@@ -247,8 +247,6 @@ Camera pose estimation in known scenes is a 3D geometry task recently tackled by
 ### 1. [RAL '24] Adaptive Global Graph Optimization for LiDAR-Inertial SLAM
 **Authors**: Fengtian Lang, Ruiye Ming, Zikang Yuan, Xuemiao Xu, Kai Wu, Xin Yang
 
- ***Comment:***: ICRA '24
-
 <details span>
 <summary><b>Abstract</b></summary>
 A complete SLAM system comprises a front-end
@@ -274,8 +272,6 @@ accuracy of back-end state optimization
 
 ### 2. [IROS '24] SOS-Match: Segmentation for Open-Set Robust Correspondence Search and Robot Localization in Unstructured Environments
 **Authors**: Annika Thomas, Jouko Kinnari, Parker Lusk, Kota Kondo, Jonathan P How
-
- ***Comment:***: IROS '24
 
 <details span>
 <summary><b>Abstract</b></summary>
