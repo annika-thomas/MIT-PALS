@@ -7,7 +7,7 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 <br>
 
 ## February 2024:
-### 1. [RSS '22] Hydra: a Real-time Spatial Perception System for 3d Scene Graph Construction and Optimization
+### 1. [RSS '22] Hydra: a Real-time Spatial Perception System for 3D Scene Graph Construction and Optimization
 **Authors**: Nathan Hughes, Yun Chang, Luca Carlone
 <details span>
 <summary><b>Abstract</b></summary>
