@@ -66,7 +66,7 @@ Integrating language models into robotic exploration frameworks improves perform
 
 ## October 2024:
 ### 1. PADLoC: LiDAR-Based Deep Loop Closure Detection and Registration Using Panoptic Attention
-**Authors**: José Arce, Niclas Vödisch, Daniele Cattaneo, Wolfram Burgard, Abhinav Valada
+**Authors**: José Arce, Niclas Vödisch, Daniele Cattaneo, Wolfram Burgard, Abhinav Valada  
 *Robotics and Automation Letters '23*
 
 <details span>
