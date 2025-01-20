@@ -8,7 +8,7 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 
 ## January 2025
 ### 1. View From Above: Orthogonal-View aware Cross-view Localization
-**Authors**: Shan Wang, Chuong Nguyen, Jiawei Liu, Yanhao Zhang, Sundaram Muthu, Fahira Afzal Maken, Kaihao Zhang, Hongdong Li
+**Authors**: Shan Wang, Chuong Nguyen, Jiawei Liu, Yanhao Zhang, Sundaram Muthu, Fahira Afzal Maken, Kaihao Zhang, Hongdong Li  
 *Conference on Computer Vision and Pattern Recognition '24*
 
 <details span>
