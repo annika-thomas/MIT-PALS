@@ -19,7 +19,7 @@ This paper presents a novel aerial-to-ground feature aggregation strategy tailor
 [📄 Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_View_From_Above_Orthogonal-View_aware_Cross-view_Localization_CVPR_2024_paper.html) | [💻 Code (not available yet)](https://github.com/ShanWang-Shan/ViewFromAbove)
 
 ### 2. Drift-free Visual SLAM Using Digital Twins
-**Authors**: Roxane Merat, Giovanni Cioffi, Leonard Bauersfeld, Davide Scaramuzza
+**Authors**: Roxane Merat, Giovanni Cioffi, Leonard Bauersfeld, Davide Scaramuzza  
 *Robotics and Automation Letters '25*
 
 <details span>
