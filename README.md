@@ -6,6 +6,19 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 
 <br>
 
+## February 2025
+### 1. Towards Long Term SLAM on Thermal Imagery
+**Authors**: Colin Keil, Aniket Gupta, Pushyami Kaveti, Hanumant Singh
+
+<details span>
+<summary><b>Abstract</b></summary>
+Visual SLAM with thermal imagery, and other low contrast visually degraded environments such as underwater, or in areas dominated by snow and ice, remain a difficult problem for many state of the art (SOTA) algorithms. In addition to challenging front-end data association, thermal imagery presents an additional difficulty for long term relocalization and map reuse. The relative temperatures of objects in thermal imagery change dramatically from day to night. Feature descriptors typically used for relocalization in SLAM are unable to maintain consistency over these diurnal changes. We show that learned feature descriptors can be used within existing Bag of Word based localization schemes to dramatically improve place recognition across large temporal gaps in thermal imagery. In order to demonstrate the effectiveness of our trained vocabulary, we have developed a baseline SLAM system, integrating learned features and matching into a classical SLAM algorithm. Our system demonstrates good local tracking on challenging thermal imagery, and relocalization that overcomes dramatic day to night thermal appearance changes. 
+</details>
+
+[📄 Paper](https://arxiv.org/abs/2403.19885) | [💻 Code](https://github.com/neufieldrobotics/IRSLAM_Baseline)
+
+<br>
+
 ## January 2025
 ### 1. View From Above: Orthogonal-View aware Cross-view Localization
 **Authors**: Shan Wang, Chuong Nguyen, Jiawei Liu, Yanhao Zhang, Sundaram Muthu, Fahira Afzal Maken, Kaihao Zhang, Hongdong Li  
