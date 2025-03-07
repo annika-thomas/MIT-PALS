@@ -19,6 +19,7 @@ Visual SLAM with thermal imagery, and other low contrast visually degraded envir
 
 ### 2. Flow-Based Localization and Mapping for Multi-Robot Systems
 **Authors**: Arjun Kumar, Thales C. Silva, Victoria Edwards, M. Ani Hsieh
+*Robotics and Automation Letters '25*
 
 <details span>
 <summary><b>Abstract</b></summary>
