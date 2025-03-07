@@ -17,6 +17,16 @@ Visual SLAM with thermal imagery, and other low contrast visually degraded envir
 
 [📄 Paper](https://arxiv.org/abs/2403.19885) | [💻 Code](https://github.com/neufieldrobotics/IRSLAM_Baseline)
 
+### 2. Flow-Based Localization and Mapping for Multi-Robot Systems
+**Authors**: Arjun Kumar, Thales C. Silva, Victoria Edwards, M. Ani Hsieh
+
+<details span>
+<summary><b>Abstract</b></summary>
+This letter addresses the problem of Multi-Robot Simultaneous Localization and Mapping (SLAM) in dynamic feature-free marine environments. Traditional SLAM approaches rely on static environmental features, which are often scarce in marine environments, hindering their applicability in aquatic environments like rivers, lakes, and oceans. We propose a localization and mapping formulation that jointly optimizes robot odometry, relative robot bearings, and estimates of dynamic environmental flow parameters using state-of-the-art parameter estimation techniques like Sparse Identification of Nonlinear Dynamics (SINDy) (Brunton et al., 2016). Our approach not only provides an accurate flow field map but it also enhances pose estimation of multiple minimally actuated robots transported by the flow (Subbaraya et al., 2016), (Molchanov et al., 2015). We showcase our methodology on a series of increasingly dynamically complex flow fields including the Duffing oscillator, the wind-driven double-gyre, and real ocean data from the Gulf of Mexico.
+</details>
+
+[📄 Paper](https://ieeexplore.ieee.org/abstract/document/10878489)
+
 <br>
 
 ## January 2025
