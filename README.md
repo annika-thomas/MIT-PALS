@@ -18,7 +18,7 @@ Visual SLAM with thermal imagery, and other low contrast visually degraded envir
 [📄 Paper](https://arxiv.org/abs/2403.19885) | [💻 Code](https://github.com/neufieldrobotics/IRSLAM_Baseline)
 
 ### 2. Flow-Based Localization and Mapping for Multi-Robot Systems
-**Authors**: Arjun Kumar, Thales C. Silva, Victoria Edwards, M. Ani Hsieh
+**Authors**: Arjun Kumar, Thales C. Silva, Victoria Edwards, M. Ani Hsieh  
 *Robotics and Automation Letters '25*
 
 <details span>
