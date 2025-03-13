@@ -9,7 +9,7 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 ## March 2025
 ### 1. A Survey on Vision Transformer  
 **Authors**: Kai Han, Yunhe Wang, Hanting Chen, Xinghao Chen, Jianyuan Guo, Zhenhua Liu, Yehui Tang, An Xiao, Chunjing Xu, Yixing Xu, Zhaohui Yang, Yiman Zhang, and Dacheng Tao  
-*IEEE Transactions on Pattern Analysis and Machine Intelligence*  
+*IEEE Transactions on Pattern Analysis and Machine Intelligence '23*  
 
 <details span>
 <summary><b>Abstract</b></summary>
