@@ -6,6 +6,20 @@ If you have any suggestions, want to chat, or are interested in presenting, feel
 
 <br>
 
+## March 2025
+### 1. A Survey on Vision Transformer  
+**Authors**: Kai Han, Yunhe Wang, Hanting Chen, Xinghao Chen, Jianyuan Guo, Zhenhua Liu, Yehui Tang, An Xiao, Chunjing Xu, Yixing Xu, Zhaohui Yang, Yiman Zhang, and Dacheng Tao  
+*IEEE Transactions on Pattern Analysis and Machine Intelligence*  
+
+<details span>
+<summary><b>Abstract</b></summary>
+Transformer, first applied to the field of natural language processing, is a type of deep neural network mainly based on the self-attention mechanism. Thanks to its strong representation capabilities, researchers are looking at ways to apply transformer to computer vision tasks. In a variety of visual benchmarks, transformer-based models perform similar to or better than other types of networks such as convolutional and recurrent neural networks. Given its high performance and less need for vision-specific inductive bias, transformer is receiving more and more attention from the computer vision community. In this paper, we review these vision transformer models by categorizing them in different tasks and analyzing their advantages and disadvantages. The main categories we explore include the backbone network, high/mid-level vision, low-level vision, and video processing. We also include efficient transformer methods for pushing transformer into real device-based applications. Furthermore, we also take a brief look at the self-attention mechanism in computer vision, as it is the base component in transformer. Toward the end of this paper, we discuss the challenges and provide several further research directions for vision transformers.
+</details>
+
+[📄 Paper](https://ieeexplore.ieee.org/abstract/document/9716741?casa_token=0IprrOK1QQcAAAAA:kI3tWCeNNZpnpxEZZLFpnMMuokh1J--zfzT_PpWRiiDhzfEsALFk5-iA1ZqO_oOEf8q6R0JNAh4)
+
+<br>
+
 ## February 2025
 ### 1. Towards Long Term SLAM on Thermal Imagery
 **Authors**: Colin Keil, Aniket Gupta, Pushyami Kaveti, Hanumant Singh
