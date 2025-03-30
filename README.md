@@ -18,6 +18,17 @@ Transformer, first applied to the field of natural language processing, is a typ
 
 [📄 Paper](https://ieeexplore.ieee.org/abstract/document/9716741?casa_token=0IprrOK1QQcAAAAA:kI3tWCeNNZpnpxEZZLFpnMMuokh1J--zfzT_PpWRiiDhzfEsALFk5-iA1ZqO_oOEf8q6R0JNAh4)
 
+### 2. SNI-SLAM: Semantic Neural Implicit SLAM   
+**Authors**: Siting Zhu, Guangming Wang, Hermann Blum, Jiuming Liu, Liang Song, Marc Pollefeys, Hesheng Wang  
+*Conference on Computer Vision and Pattern Recognition '24*  
+
+<details span>
+<summary><b>Abstract</b></summary>
+We propose SNI-SLAM a semantic SLAM system utilizing neural implicit representation that simultaneously performs accurate semantic mapping high-quality surface reconstruction and robust camera tracking. In this system we introduce hierarchical semantic representation to allow multi-level semantic comprehension for top-down structured semantic mapping of the scene. In addition to fully utilize the correlation between multiple attributes of the environment we integrate appearance geometry and semantic features through cross-attention for feature collaboration. This strategy enables a more multifaceted understanding of the environment thereby allowing SNI-SLAM to remain robust even when single attribute is defective. Then we design an internal fusion-based decoder to obtain semantic RGB Truncated Signed Distance Field (TSDF) values from multi-level features for accurate decoding. Furthermore we propose a feature loss to update the scene representation at the feature level. Compared with low-level losses such as RGB loss and depth loss our feature loss is capable of guiding the network optimization on a higher-level. Our SNI-SLAM method demonstrates superior performance over all recent NeRF-based SLAM methods in terms of mapping and tracking accuracy on Replica and ScanNet datasets while also showing excellent capabilities in accurate semantic segmentation and real-time semantic mapping.
+</details>
+
+[📄 Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Zhu_SNI-SLAM_Semantic_Neural_Implicit_SLAM_CVPR_2024_paper.html) | [💻 Code](https://github.com/IRMVLab/SNI-SLAM)
+
 <br>
 
 ## February 2025
